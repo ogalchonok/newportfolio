@@ -1,0 +1,112 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #e63900;
+	font-weight: 300;
+
+}
+
+h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+hr {
+	background: #747704;
+    background-image: linear-gradient(to right, #ccc, #e63900, #ccc);
+	border: 0;
+    height: 1px;
+}
+
+button, .btn {
+	background: none;
+	border: none;
+	color: #cd4b4c;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+button .fa {
+	font-size: 2em;
+}
+
+button:hover .fa {
+	color:#b23239;
+}
+
+.btn:hover {
+	color: #b23239;
+}
+
+.btn:focus, button:focus {
+  outline: none;
+}
+
+.modal img {
+	margin: 0 auto;
+}
+
+.modal p {
+	margin: 1em 0;
+}
+
+.full-circle {
+	background-color: #cc3300;
+ 	height: 5em;
+ 	-moz-border-radius:50%;
+ 	-webkit-border-radius: 550%;
+ 	border-radius: 50%;
+ 	margin-top: 1em;
+ 	padding-top: 1em;
+ 	text-align: center;
+ 	width: 5em;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-supper {
+	font-size: 2.5em;
+}
+.title-logo {
+	color: #fff;
+	font-family: 'Lobster Two', cursive;
+	font-weight: 400;
+	font-size: 2em;
+}
+
+/*image effect on hover*/
+
+figure {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+/* zoom in img */
+.hover-zoom figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover-zoom figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.title-supper {
+		font-size: 3em;
+	}
+
+ }
